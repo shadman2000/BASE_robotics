@@ -12,21 +12,27 @@ body{
 
 #SHimg{
     position: relative;
-    top:33vh;
-    left:15vw;
+    top:25vh;
     height:30vh;
+    right:10vw;
 }
 
 #GEimg{
     position: relative;
-    top:33vh;
-    left:40vw;
+    top:25vh;
     height:30vh;
+    left:10vw;
 }
 
 #BASEimg{
     position: relative;
-    top:1vh;
-    left:49vw;
-    height:15vh;
+    height:20vh;
+    top:-10vh;
+    right:2vw;
+    transition:all 2s;
+}
+
+#BASEimg:hover{
+    transform: rotate(360deg);
+    filter: drop-shadow(2px 2px 2px grey);
 }
