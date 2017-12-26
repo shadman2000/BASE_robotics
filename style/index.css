@@ -27,8 +27,8 @@ body{
 #BASEimg{
     position: relative;
     height:20vh;
-    top:-10vh;
-    right:2vw;
+    top:-5vh;
+    right: 3.2vw;
     transition:all 2s;
 }
 
